@@ -1,5 +1,6 @@
 div {
 
+    
     text-align: center;
 
     padding: 100px;
@@ -126,4 +127,9 @@ body {
 
     background: linear-gradient(320deg, #2ecc71 15%, #2980b9 85%) fixed;
 
+  }
+
+  body {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
   }
